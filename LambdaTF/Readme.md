@@ -1,0 +1,1 @@
+This is the terraform project which handles the deployment of the lambda function that will be used to deploy the .zip archive to AWS Lambda Service.
