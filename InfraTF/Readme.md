@@ -1,10 +1,8 @@
 This is the terraform project which will create the testing infrastructure.
 
-
-
-
-- It will store its state to a predefined bucket and key. 
-- The tfstate file of this project will be used for testing the lambda function which is developed under the lambda_app folder and deployed with the Terraform project under the LambdaTF folder.
+- It will store its state to a predefined bucket and key ( *it is assumed that this is already manually created* ). 
+- The tfstate file of this project will be used for testing the lambda function.
+  - Lambda function is developed under the *PythonLambdaFunction* folder and deployed with the Terraform project under the *LambdaTF* folder.
 
 
 
