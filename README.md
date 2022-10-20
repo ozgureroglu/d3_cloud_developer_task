@@ -4,7 +4,10 @@ This repository folder contains the code for the task given for the Cloud Soluti
 
 ## Prerequisite: 
 
-This projects assumes that you have an AWS account and configured a  profile for AWS CLI to access ypur account from command line.
+This projects assumes that 
+- You have an AWS account and configured a profile for AWS CLI to access your account from command line.
+- You already created an S3 bucket to be used for holding tfstate files
+
 
 
 # Project Folders
@@ -14,6 +17,7 @@ There are 3 projects in this folder:
 
 This folder includes a Terraform project to setup an sample infrastructure to be used as the testing environment.
 - It holds the terraform state on S3
+- It will serve as the source of tfstate file that will be used.
 - Includes various AWS resources to be generated
 
 

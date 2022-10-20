@@ -35,3 +35,5 @@ terraform.rc
 
 # Do not add keys
 **/*.pem
+
+**/*.zip
