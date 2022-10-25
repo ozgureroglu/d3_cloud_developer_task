@@ -1,6 +1,6 @@
 # Cloud Developer Task
 
-This repository folder contains the code for the task given for the Cloud Solutions Architect Role.
+This repository folder contains the code to create a Lambda Fucntion to get outputs of terraform.tfstate file from a S3 bucket. 
 
 ## Prerequisite: 
 
